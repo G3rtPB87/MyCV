@@ -142,6 +142,16 @@ nav ul li a:hover {
     color: var(--secondary-color);
 }
 
+/* Photo */
+.profile-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    border: 5px solid var(--secondary-color);
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-color) 100%);
